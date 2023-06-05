@@ -4,6 +4,7 @@ const btn = document.querySelector('button');
 
 btn.addEventListener('click', () =>{
   
+  btn.style.color = "red";
   const inputValue = inputBox.value;
   
   let apiLink = `https:api.mymemory.translated.net/get?q=${inputValue}&langpair=eng|ben`;
