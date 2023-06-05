@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.outer-container{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top  right, pink, skyblue);
+}
+
+.inner-container{
+  max-width: 80%;
+  position: relative;
+  top: 15%;
+  margin-inline: auto;
+  background: #fff;
+  padding: 10px;
+}
+
+#input{
+  width: 100%;
+  font-family: sans-serif;
+  padding: 5px;
+  margin-block: 5px;
+}
+
+#output{
+width: 100%;
+padding: 5px;
+margin-bottom: 5px;
+}
+
+button{
+  width: 80px;
+}
